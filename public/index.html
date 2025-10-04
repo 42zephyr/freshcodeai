@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📋 ToDo List</h1>
+  <div class="container">
+    <input id="titleInput" type="text" placeholder="Заголовок">
+    <textarea id="descInput" placeholder="Опис"></textarea>
+    <button class="add-btn" onclick="addTask()">➕ Додати</button>
+    <button class="clear-btn" onclick="clearAll()">🗑 Очистити все</button>
+
+    <div class="stats" id="stats"></div>
+
+    <ul id="todoList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
